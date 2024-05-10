@@ -114,10 +114,10 @@ The three main arguments to adjust are as follows:
       Note: the visualization will slow down testing significantly.
   
 
-
-  <div style="display: inline-block;">
-    <img src="https://github.com/Golchoubian/UncertaintyAware_DRL_CrowdNav/blob/main/figures/UAW-PCG_pred.gif?raw=true" alt="Related Info" width="500"> 
+  <div style="display: flex; justify-content: center;">
+  <img src="https://github.com/Golchoubian/UncertaintyAware_DRL_CrowdNav/blob/main/figures/UAW-PCG_pred.gif?raw=true" alt="GIF 1" width="500">
   </div>
+
 
 
 ## Citation
