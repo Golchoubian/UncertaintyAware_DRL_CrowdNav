@@ -1,0 +1,6 @@
+*.pyc 
+*__pycache__*
+# *.log
+venv/
+baselines/
+# trained_models/

@@ -1,0 +1,5 @@
+2024-05-05 10:40:16, INFO: Create other envs with new settings
+2024-05-05 10:41:37, INFO: Testing success rate: 0.90, collision rate: 0.05, vehicle collision rate: 0.00, timeout rate: 0.05, nav time: 14.50±4.96, path length: 45.41±5.69, average intrusion ratio: 1.80±3.67%, average minimal distance during intrusions: 0.64±0.24, speed at minimal distance: 1.99±1.74, one_step_compute_time: 0.04±0.02
+2024-05-05 10:41:37, INFO: Collision cases: 255 288 300
+2024-05-05 10:41:37, INFO: Timeout cases: 304 306 307
+2024-05-05 10:41:37, INFO: Vehicle Collision cases: 
