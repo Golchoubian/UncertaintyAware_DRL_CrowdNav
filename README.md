@@ -4,8 +4,8 @@ This repository contains the code for our paper titled "Uncertainty-Aware DRL fo
 
 
 <div style="display: inline-block;">
-    <img src="https://github.com/Golchoubian/PolarCollisionGrid-PedestrianTrajectoryPrediction/blob/master/figure/RelatedInfo.png" alt="Related Info" width="250" hspace="50"> 
-   <img src="https://github.com/Golchoubian/PolarCollisionGrid-PedestrianTrajectoryPrediction/blob/master/figure/OveralFramework.png" alt="Overall Framework" width="400">
+<!--     <img src="https://github.com/Golchoubian/UncertaintyAware_DRL_CrowdNav/blob/main/figures/Overall.png?raw=true" alt="Overall" width="400" hspace="50"> -->
+    <img src="https://github.com/Golchoubian/UncertaintyAware_DRL_CrowdNav/blob/main/figures/illustration.png?raw=true" alt="illustration" width="600"> 
 </div>
 
 # Abstract
@@ -116,7 +116,7 @@ The three main arguments to adjust are as follows:
 
 
   <div style="display: inline-block;">
-    <img src="https://github.com/Golchoubian/PolarCollisionGrid-PedestrianTrajectoryPrediction/blob/master/figure/loss_plot_epoch.png" alt="Related Info" width="450" hspace="50"> 
+    <img src="https://github.com/Golchoubian/UncertaintyAware_DRL_CrowdNav/blob/main/figures/UAW-PCG_pred.gif?raw=true" alt="Related Info" width="450" hspace="50"> 
   </div>
 
 
