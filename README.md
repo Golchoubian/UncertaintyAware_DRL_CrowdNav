@@ -136,8 +136,8 @@ The three main arguments to adjust are as follows:
 ```
 
 
-# Acknowledgment
+## Acknowledgment
 
 This project is builds upon the codebase from [CrowdNav_Prediction_AttnGraph
-repsitory](https://github.com/Shuijing725/CrowdNav_Prediction_AttnGraph)
+repsitory](https://github.com/Shuijing725/CrowdNav_Prediction_AttnGraph).
 
