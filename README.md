@@ -42,7 +42,7 @@ There are four main folders within this repository:
 
 * `move_plan/`: Contains the configuration file and policy used for the robot/AV in the simulation environment.
 
-* `ped_pred/`: Includes files for running inference on our pedestrian trajectory prediction model, named PollarCollisionGrid ([PCG](https://github.com/Golchoubian/PolarCollisionGrid-PedestrianTrajectoryPrediction)) and its uncertainty-aware version [UAW-PCG](https://github.com/Golchoubian/PolarCollisionGrid-UncertaintyAware).
+* `ped_pred/`: Includes files for running inference on our pedestrian trajectory prediction model, named PollarCollisionGrid ([PCG](https://github.com/Golchoubian/PolarCollisionGrid-PedestrianTrajectoryPrediction)) and its uncertainty-aware version [(UAW-PCG)](https://github.com/Golchoubian/PolarCollisionGrid-UncertaintyAware).
 
 * `ped_sim/`: Contatins the files for the simulation environment.
 
