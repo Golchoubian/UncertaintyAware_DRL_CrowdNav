@@ -61,57 +61,58 @@ The simulation environment being developed, based on real trajectory data, provi
 
 ## Model training
 
-According to the model you want to train modify the configurations in the following two files, with some of the key parameters mentioned below:
+To customize the training process for your desired model, adjust the configurations in the following two files, with key parameters outlined below:
 
 * Environment configurations in `move_plan/configs/config.py`.
-  - `sim.predict_method` comes with the following options:
-    - `inferred`: When using pedestrians predicted trajecoteis in the DRL algorithm and replying on the PCG/UAW-PCG predictor model to produce the prediction
-    - `none`: When not using pedestrians predicted trajecoteis in the DRL algorithm
-    - `truth`: When using pedestrians predicted trajecoteis in the DRL algorithm and replying on the ground truth prediction from the dataset for that
+  - `sim.predict_method` offers the following options:
+    - `inferred`: Uses predicted trajectories of pedestrians in the DRL algorithm, relying on the PCG/UAW-PCG predictor model.
+    - `none`: Does not use predicted trajectories of pedestrians in the DRL algorithm.
+    - `truth`: Uses predicted trajectories of pedestrians in the DRL algorithm, relying on the ground truth prediction from the dataset.
 
 * Network configurations in `arguments.py`
-  - `env_name` comes with the following options and must be consistant with `sim.predict_method` in `move_plan/configs/config.py`
-    - `PedSim-v0`: if using prediction (either PCG/UAW-PCG or ground truth)
-    - `PedSimPred-v0`: if not using prediction.
+  - `env_name` offers the following options and must align with `sim.predict_method` in `move_plan/configs/config.py`
+    - `PedSim-v0`: When using prediction (either PCG/UAW-PCG or ground truth)
+    - `PedSimPred-v0`:  When not using prediction.
   - `uncertainty_aware` is a boolean argument:
-    - `True`: When using the uncertainty-aware polar collision grid prediction model (UAW-PCG)
-    - `False`: When using the origianl polar collision grid prediction model (PCG)
+    - `True`: When using the uncertainty-aware Polar Collision Grid prediction model (UAW-PCG)
+    - `False`: When using the origianl Polar Collision Grid prediction model (PCG)
 
-  After all adjustments has been made, run:
+ Once all adjustments have been made, execute the following command:
   ```python
   python train.py
   ```
   
 ## Model testing
 
-For testing our already trained models in the paper and reproducing the results of table III, adjust the arguments in line 24-31 of the `test.py` file and run:
+To test our pre-trained models as presented in the paper and reproduce the results of Table III, adjust the arguments in lines 24-31 of the test.py file and execute the following command:
+
 ```python
 python test.py
 ```
 
 The three main arguments to adjust are as follows:
-  - `test_model` specifies the name of the trained model to test:
-      - `UAW_PCG_pred`: The DRL model trained with UAW-PCG prediction model
-      - `PCG_pred`: The DRL model trained with the PCG prediction model
-      - `GT_pred`: The DRL model trained with groun truth prediction model
-      - `No_pred`: The DRL model trained without any prediction data
-      - `No_pred_SD`: The DRL model trained without any prediction data but with a speed dependant danger penalty reward function
-      - `Human_Driver`: The trajecotry of the human dirver in the dataset
+  - `test_model`: Specifies the name of the trained model to test:
+      - `UAW_PCG_pred`: DRL model trained with the UAW-PCG prediction model.
+      - `PCG_pred`: DRL model trained with the PCG prediction model.
+      - `GT_pred`: DRL model trained with the ground truth prediction model.
+      - `No_pred`: DRL model trained without any prediction data.
+      - `No_pred_SD`: The DRL model trained without any prediction data but with a speed-dependent danger penalty reward function.
+      - `Human_Driver`: Trajecotry of the human dirver in the dataset
 
-        Note: the `config.py` and `arguments.py` in the saved models folder will be loaded, instead of those in the root directory. (Therefore, no need to change the config and argument file of the root directory when generating the test result of each provided trained model)
+        Note: the `config.py` and `arguments.py` in the saved models folder will be loaded, instead of those in the root directory. Therefore, there is no need to change the config and argument files of the root directory when generating the test result for each provided trained model.
   
-  - `test_case` specifies the scenarios in the test set to test the model on 
-    - `-1` runs the test on all scenarios in the test set
-    - `Any numver in raneg: [248-310]` run the test on the specified scenario numbers in the test set
+  - `test_case`: Specifies the scenarios in the test set to test the model on: 
+    - `-1`: Runs the test on all scenarios in the test set
+    - `A single number in raneg: [248-310]`: Run the test on the specified scenario number in the test set
 
-      Note: Among the 310 extracted scenario from the HBS dataset, here is the scenario numbers within each subdivided category of train, validation and test:
+      Note: Among the 310 extracted scenarios from the HBS dataset, here are the scenario numbers within each subdivided category of train, validation, and test:
       - validation: scenario numbers: 0 - 48
       - train: scenario numbers: 48 - 247
       - test: scenario numbers: 248 - 310
 
-  - `visualize`, if set to true will visualize the simualtion environment with the gif saved in `traine_models/ColliGrid_predictor/visual/gifs`
+  - `visualize`: If set to true, will visualize the simulation environment with the GIF saved in `traine_models/ColliGrid_predictor/visual/gifs`
       
-      Note: the visualization will slow down testing significantly.
+      Note: Visualization will significantly slow down testing.
   
 
   <div style="display: flex; justify-content: center;">
