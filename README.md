@@ -8,6 +8,8 @@ This repository contains the code for our paper titled "Uncertainty-Aware DRL fo
 </div>
 
 
+
+
 Our method introduces an innovative approach for safe and socially compliant navigation of low-speed autonomous vehicles (AVs) in shared environments with pedestrians. Unlike existing deep reinforcement learning (DRL) algorithms, which often overlook uncertainties in pedestrians' predicted trajectories, our approach integrates prediction and planning while considering these uncertainties. This integration is facilitated by a model-free DRL algorithm trained in a novel simulation environment reflecting realistic pedestrian behavior in shared spaces with vehicles. We employ a novel reward function that encourages the AV to respect pedestrians' personal space, reduce speed during close approaches, and minimize collision probability with their predicted paths.
 
 
