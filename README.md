@@ -3,7 +3,7 @@
 This repository contains the code for our paper titled "Uncertainty-Aware DRL for Autonomous Vehicle Crowd Navigation in Shared Space". For more detailes please refer to our [paper]. A video of the simulation results is also provided [here]
 
 
-<div style="display: inline-block;">
+<div style="display: inline-block; text-align: center;">
 <!--     <img src="https://github.com/Golchoubian/UncertaintyAware_DRL_CrowdNav/blob/main/figures/Overall.png?raw=true" alt="Overall" width="400" hspace="50"> -->
     <img src="https://github.com/Golchoubian/UncertaintyAware_DRL_CrowdNav/blob/main/figures/illustration.png?raw=true" alt="illustration" width="600"> 
 </div>
