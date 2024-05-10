@@ -1,13 +1,13 @@
 # UncertaintyAware_DRL_CrowdNav
 
-This repository contains the code for our paper titled "Uncertainty-Aware DRL for Autonomous Vehicle Crowd Navigation in Shared Space". For more detailes please refer to our [paper]. A video of the simulation results is also provided [here]
+This repository contains the code for our paper titled "Uncertainty-Aware DRL for Autonomous Vehicle Crowd Navigation in Shared Space". For more detailes please refer to our [paper]. A video of the simulation results is also provided [here].
 
 
 <div style=""display: block; margin: 0 auto; text-align: center;"">
     <img src="https://github.com/Golchoubian/UncertaintyAware_DRL_CrowdNav/blob/main/figures/illustration.png?raw=true" alt="illustration" width="700"> 
 </div>
 
-# Abstract
+
 Our method introduces an innovative approach for safe and socially compliant navigation of low-speed autonomous vehicles (AVs) in shared environments with pedestrians. Unlike existing deep reinforcement learning (DRL) algorithms, which often overlook uncertainties in pedestrians' predicted trajectories, our approach integrates prediction and planning while considering these uncertainties. This integration is facilitated by a model-free DRL algorithm trained in a novel simulation environment reflecting realistic pedestrian behavior in shared spaces with vehicles. We employ a novel reward function that encourages the AV to respect pedestrians' personal space, reduce speed during close approaches, and minimize collision probability with their predicted paths.
 
 
@@ -39,15 +39,15 @@ cd ..
 
 There are four main folders within this repository:
 
-* `move_plan/`: This folder contains the configuration file and the polciy used for the robot/AV in the simulation environment
+* `move_plan/`: Contains the configuration file and policy used for the robot/AV in the simulation environment.
 
-* `ped_pred/`: This folder containts the files for running inference on our pedestrian trajectory prediction model. called PollarCollisionGrid ([PCG](https://github.com/Golchoubian/PolarCollisionGrid-PedestrianTrajectoryPrediction)) and its uncertainty-aware one [UAW-PCG](https://github.com/Golchoubian/PolarCollisionGrid-UncertaintyAware)
+* `ped_pred/`: Includes files for running inference on our pedestrian trajectory prediction model, named PollarCollisionGrid ([PCG](https://github.com/Golchoubian/PolarCollisionGrid-PedestrianTrajectoryPrediction)) and its uncertainty-aware version [UAW-PCG](https://github.com/Golchoubian/PolarCollisionGrid-UncertaintyAware).
 
-* `ped_sim/`: This folder contatins the files for the simulation environment.
+* `ped_sim/`: Contatins the files for the simulation environment.
 
-* `rl/`: This folder contains the file for the DRL policy network, the ppo algorithm, and the wrapper for the prediction network
+* `rl/`: Holds the files for the DRL policy network, the ppo algorithm, and the wrapper for the prediction network.
 
-* `trained_model/`: This folder contains our trained models reported in out paper
+* `trained_model/`: Contains the trained models reported in our paper
 
 ## Simulation Environment
 
