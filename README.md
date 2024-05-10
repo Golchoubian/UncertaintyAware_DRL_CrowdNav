@@ -109,7 +109,7 @@ The three main arguments to adjust are as follows:
       - train: scenario numbers: 48 - 247
       - test: scenario numbers: 248 - 310
 
-    - `visualize`, if set to true will visualize the simualtion environment with the gif saved in `traine_models/ColliGrid_predictor/visual/gifs`
+  - `visualize`, if set to true will visualize the simualtion environment with the gif saved in `traine_models/ColliGrid_predictor/visual/gifs`
       
       Note: the visualization will slow down testing significantly.
   
