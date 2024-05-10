@@ -4,7 +4,7 @@ This repository contains the code for our paper titled "Uncertainty-Aware DRL fo
 
 
 <div style=""display: block; margin: 0 auto; text-align: center;"">
-    <img src="https://github.com/Golchoubian/UncertaintyAware_DRL_CrowdNav/blob/main/figures/illustration.png?raw=true" alt="illustration" width="600"> 
+    <img src="https://github.com/Golchoubian/UncertaintyAware_DRL_CrowdNav/blob/main/figures/illustration.png?raw=true" alt="illustration" width="800"> 
 </div>
 
 # Abstract
