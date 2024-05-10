@@ -100,10 +100,6 @@ The three main arguments to adjust are as follows:
 
         Note: the `config.py` and `arguments.py` in the saved models folder will be loaded, instead of those in the root directory. (Therefore, no need to change the config and argument file of the root directory when generating the test result of each provided trained model)
   
-  - `visualize`, if set to true will visualize the simualtion environment with the gif saved in `traine_models/ColliGrid_predictor/visual/gifs`
-      
-      Note: the visualization will slow down testing significantly.
-  
   - `test_case` specifies the scenarios in the test set to test the model on 
     - `-1` runs the test on all scenarios in the test set
     - `Any numver in raneg: [248-310]` run the test on the specified scenario numbers in the test set
@@ -113,9 +109,14 @@ The three main arguments to adjust are as follows:
       - train: scenario numbers: 48 - 247
       - test: scenario numbers: 248 - 310
 
+    - `visualize`, if set to true will visualize the simualtion environment with the gif saved in `traine_models/ColliGrid_predictor/visual/gifs`
+      
+      Note: the visualization will slow down testing significantly.
+  
+
 
   <div style="display: inline-block;">
-    <img src="https://github.com/Golchoubian/UncertaintyAware_DRL_CrowdNav/blob/main/figures/UAW-PCG_pred.gif?raw=true" alt="Related Info" width="600"> 
+    <img src="https://github.com/Golchoubian/UncertaintyAware_DRL_CrowdNav/blob/main/figures/UAW-PCG_pred.gif?raw=true" alt="Related Info" width="500"> 
   </div>
 
 
