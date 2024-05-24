@@ -1,6 +1,6 @@
 # UncertaintyAware_DRL_CrowdNav
 
-This repository contains the code for our paper titled "Uncertainty-Aware DRL for Autonomous Vehicle Crowd Navigation in Shared Space". For more detailes please refer to our [paper]. A video of the simulation results is also provided [here](https://youtu.be/-vyhoNlN8PM).
+This repository contains the code for our paper titled "Uncertainty-Aware DRL for Autonomous Vehicle Crowd Navigation in Shared Space". For more detailes please refer to our [paper](https://arxiv.org/abs/2405.13969). A video of the simulation results is also provided [here](https://youtu.be/-vyhoNlN8PM).
 
 
 <div style="display: block; margin: 0 auto; text-align: center; padding-bottom: 200px;">
