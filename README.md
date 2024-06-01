@@ -125,6 +125,15 @@ The three main arguments to adjust are as follows:
 ## Citation
 
 ```bibtex
+
+@article{golchoubian2024uncertainty,
+  title={Uncertainty-Aware DRL for Autonomous Vehicle Crowd Navigation in Shared Space},
+  author={Golchoubian, Mahsa and Ghafurian, Moojan and Dautenhahn, Kerstin and Azad, Nasser Lashgarian},
+  journal={IEEE Transactions on Intelligent Vehicles},
+  year={2024},
+  publisher={IEEE}
+}
+
 @inproceedings{golchoubian2023polar,
   title={Polar Collision Grids: Effective Interaction Modelling for Pedestrian Trajectory Prediction in Shared Space Using Collision Checks},
   author={Golchoubian, Mahsa and Ghafurian, Moojan and Dautenhahn, Kerstin and Azad, Nasser Lashgarian},
