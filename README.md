@@ -57,7 +57,7 @@ In our project focusing on crowd navigation for Autonomous Vehicles (AVs) in sha
 
 From the HBS dataset, we have extracted 310 scenarios corresponding to the vehicles in the dataset, which are divided into training, testing, and validation sets. Pedestrian behaviors are simulated using real-world data, while AV actions are governed by the DRL policy network. These scenarios present dynamic situations where AVs must adapt by decelerating to yield to pedestrians or accelerating to avoid collisions.
 
-The simulation environment being developed, based on real trajectory data, provides the advantage of having human-driven trajectories for each scenario, which can be compared with the trajectories of AVs' trained navigation policy. Integrated into a gym environment, our simulation environment can serve as a benchmark for training AVs in crowd navigation.
+The simulation environment being developed, based on real trajectory data, provides the advantage of having human-driven trajectories for each scenario, which can be compared with the trajectories of AVs' trained navigation policy. Integrated into a gym environment, our simulation environment named [PedMove_gym](https://github.com/Golchoubian/PedMove_gym) can serve as a benchmark for training AVs in crowd navigation.
 
 
 ## Model training
